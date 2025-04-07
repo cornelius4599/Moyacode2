@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moyacode - Events</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Include Supabase for form submission -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Moyacode</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="showcase.html">Student Showcase</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <h1>Join Us at TECH FEST 2025!</h1>
+        <p>April 22, 2025 | Ajasin Foundation Hall, Owo | Explore the Future of Technology</p>
+    </section>
+
+    <!-- Event Details Section -->
+    <section class="event-details">
+        <h2>What to Expect at TECH FEST 2025</h2>
+        <div class="event-content">
+            <p>TECH FEST 2025 is an electrifying event where students, educators, and tech enthusiasts come together to explore the future of technology. Hosted by Moyacode in partnership with the Ajasin Foundation, this event will feature hands-on coding workshops, inspiring tech talks, and networking opportunities.</p>
+            <h3>Date & Location</h3>
+            <p>April 22, 2025 | Ajasin Foundation Hall, Owo</p>
+            <h3>Tentative Agenda</h3>
+            <ul>
+                <li><strong>9:00 AM:</strong> Registration and Welcome</li>
+                <li><strong>10:00 AM:</strong> Keynote Address – “The Future of Tech”</li>
+                <li><strong>11:00 AM:</strong> Coding Workshops (Scratch, HTML/CSS, JavaScript)</li>
+                <li><strong>1:00 PM:</strong> Lunch Break</li>
+                <li><strong>2:00 PM:</strong> Tech Talks and Panel Discussion</li>
+                <li><strong>4:00 PM:</strong> Networking and Closing Remarks</li>
+            </ul>
+            <div class="event-flyer">
+                <img src="https://t.co/dHvFBaEt76" alt="TECH FEST 2025 Flyer" style="max-width: 100%; border-radius: 10px;">
+                <p>Our official event flyer!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section class="event-registration">
+        <h2>Register for TECH FEST 2025</h2>
+        <form id="event-registration-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="source">How Did You Hear About Us?</label>
+                <select id="source" name="source" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="School">School</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <button type="submit" class="cta-button">Register Now</button>
+        </form>
+        <div class="share-event">
+            <p>Spread the word! Share TECH FEST 2025 with your friends!</p>
+            <div class="social-share-buttons">
+                <a href="https://www.instagram.com/sharer.php?u=[website link]" target="_blank" class="social-share-button instagram">Share on Instagram</a>
+                <a href="https://twitter.com/intent/tweet?text=Join%20me%20at%20TECH%20FEST%202025%20on%20April%2022%20at%20Ajasin%20Foundation%20Hall%2C%20Owo!%20%23TECHFEST2025%20%40MOYACODE2024&url=[website link]" target="_blank" class="social-share-button x">Share on X</a>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=[website link]" target="_blank" class="social-share-button linkedin">Share on LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Moyacode. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://twitter.com/MOYACODE2024" target="_blank">Twitter</a>
+        </div>
+        <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="programs.html">Programs</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

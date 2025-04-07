@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moyacode - Our Programs</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Moyacode</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="showcase.html">Student Showcase</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <h1>Our Programs</h1>
+        <p>Explore our coding classes, workshops, and scholarship opportunities to start your coding journey!</p>
+    </section>
+
+    <!-- Programs List Section -->
+    <section class="programs-list">
+        <div class="program-item">
+            <h2>Coding Classes</h2>
+            <p>Ages 11–15 | Learn Scratch and web development with hands-on projects to spark your creativity.</p>
+            <a href="#registration-form" class="cta-button">Register Now</a>
+        </div>
+        <div class="program-item">
+            <h2>Workshops</h2>
+            <p>Ages 16–22 | Join our interactive coding workshops to build real-world skills and collaborate with peers.</p>
+            <a href="#registration-form" class="cta-button">Register Now</a>
+        </div>
+        <div class="program-item">
+            <h2>Michael Adekunle Ajasin Tech Scholarship</h2>
+            <p>For underprivileged students | Get access to free coding education and mentorship to kickstart your tech career.</p>
+            <a href="#registration-form" class="cta-button">Register Now</a>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section class="registration-form" id="registration-form">
+        <h2>Register for a Program</h2>
+        <form id="program-registration-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="program">Program</label>
+                <select id="program" name="program" required>
+                    <option value="" disabled selected>Select a program</option>
+                    <option value="Coding Classes">Coding Classes</option>
+                    <option value="Workshops">Workshops</option>
+                    <option value="Scholarship">Michael Adekunle Ajasin Tech Scholarship</option>
+                </select>
+            </div>
+            <button type="submit" class="cta-button">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Moyacode. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://twitter.com/MOYACODE2024" target="_blank">Twitter</a>
+        </div>
+        <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="programs.html">Programs</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
