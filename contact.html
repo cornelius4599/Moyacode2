@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Moyacode for coding program inquiries or Student Showcase submissions">
+    <title>Contact Moyacode</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Moyacode</div>
+        <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+            <span class="hamburger-icon">☰</span>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="showcase.html">Student Showcase</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <h1>Contact Us</h1>
+        <p>Get in touch with Moyacode for program inquiries, Showcase submissions, or questions.</p>
+    </section>
+
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="program">Program Interest</label>
+                <select id="program" name="program">
+                    <option value="">Select a Program</option>
+                    <option value="web">Web Development</option>
+                    <option value="game">Game Development</option>
+                    <option value="scratch">Scratch for Kids</option>
+                    <option value="python">Python for Data Science</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="project-url">Showcase Project URL (Optional)</label>
+                <input type="url" id="project-url" name="project-url" placeholder="e.g., https://yourproject.com">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+            <p class="form-note">Note: Form submissions are not active yet. Please email <a href="mailto:info@moyacode.com">info@moyacode.com</a>.</p>
+        </form>
+    </section>
+
+    <section class="contact-info LOLITA here: contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:info@moyacode.com">info@moyacode.com</a></p>
+        <p>Follow us: 
+            <a href="https://twitter.com/moyacode" target="_blank">Twitter</a> | 
+            <a href="https://facebook.com/moyacode" target="_blank">Facebook</a> | 
+            <a href="https://instagram.com/moyacode" target="_blank">Instagram</a>
+        </p>
+    </section>
+
+    <section class="cta-section">
+        <h2>Ready to Start Coding?</h2>
+        <p>Join our programs and build projects like those in our <a href="showcase.html">Student Showcase</a>.</p>
+        <a href="programs.html" class="cta-button">Explore Programs</a>
+    </section>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
